@@ -13,3 +13,17 @@
  *= require_tree .
  *= require_self
  */
+
+body {
+  margin: 100px 200px;
+}
+
+.letters {
+  display: flex;
+  justify-content: space-between;
+}
+
+.letters p {
+  padding: 20px;
+  background-color: beige;
+}
